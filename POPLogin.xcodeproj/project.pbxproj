@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB4B93671ED920C4003CA92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B93661ED920C4003CA92E /* AppDelegate.swift */; };
+		DB4B93691ED920C4003CA92E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B93681ED920C4003CA92E /* LoginVC.swift */; };
+		DB4B936C1ED920C4003CA92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4B936A1ED920C4003CA92E /* Main.storyboard */; };
+		DB4B936E1ED920C4003CA92E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4B936D1ED920C4003CA92E /* Assets.xcassets */; };
+		DB4B93711ED920C4003CA92E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4B936F1ED920C4003CA92E /* LaunchScreen.storyboard */; };
+		DBB9718F1ED9322C001D99EC /* Jitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9718E1ED9322C001D99EC /* Jitterable.swift */; };
+		DBB971911ED93232001D99EC /* Flashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB971901ED93232001D99EC /* Flashable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB4B93631ED920C4003CA92E /* POPLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4B93661ED920C4003CA92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB4B93681ED920C4003CA92E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		DB4B936B1ED920C4003CA92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB4B936D1ED920C4003CA92E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB4B93701ED920C4003CA92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB4B93721ED920C4003CA92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB9718E1ED9322C001D99EC /* Jitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jitterable.swift; sourceTree = "<group>"; };
+		DBB971901ED93232001D99EC /* Flashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4B93601ED920C4003CA92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4B935A1ED920C4003CA92E = {
+			isa = PBXGroup;
+			children = (
+				DB4B93651ED920C4003CA92E /* POPLogin */,
+				DB4B93641ED920C4003CA92E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4B93641ED920C4003CA92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4B93631ED920C4003CA92E /* POPLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4B93651ED920C4003CA92E /* POPLogin */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9718D1ED93214001D99EC /* Protocols */,
+				DB4B93781ED929DF003CA92E /* Controller */,
+				DB4B93661ED920C4003CA92E /* AppDelegate.swift */,
+				DB4B936A1ED920C4003CA92E /* Main.storyboard */,
+				DB4B936D1ED920C4003CA92E /* Assets.xcassets */,
+				DB4B936F1ED920C4003CA92E /* LaunchScreen.storyboard */,
+				DB4B93721ED920C4003CA92E /* Info.plist */,
+			);
+			path = POPLogin;
+			sourceTree = "<group>";
+		};
+		DB4B93781ED929DF003CA92E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB4B93681ED920C4003CA92E /* LoginVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DBB9718D1ED93214001D99EC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9718E1ED9322C001D99EC /* Jitterable.swift */,
+				DBB971901ED93232001D99EC /* Flashable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4B93621ED920C4003CA92E /* POPLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4B93751ED920C4003CA92E /* Build configuration list for PBXNativeTarget "POPLogin" */;
+			buildPhases = (
+				DB4B935F1ED920C4003CA92E /* Sources */,
+				DB4B93601ED920C4003CA92E /* Frameworks */,
+				DB4B93611ED920C4003CA92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POPLogin;
+			productName = POPLogin;
+			productReference = DB4B93631ED920C4003CA92E /* POPLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4B935B1ED920C4003CA92E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Weijie Lin";
+				TargetAttributes = {
+					DB4B93621ED920C4003CA92E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZPWDFT65EV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB4B935E1ED920C4003CA92E /* Build configuration list for PBXProject "POPLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB4B935A1ED920C4003CA92E;
+			productRefGroup = DB4B93641ED920C4003CA92E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4B93621ED920C4003CA92E /* POPLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4B93611ED920C4003CA92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4B93711ED920C4003CA92E /* LaunchScreen.storyboard in Resources */,
+				DB4B936E1ED920C4003CA92E /* Assets.xcassets in Resources */,
+				DB4B936C1ED920C4003CA92E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4B935F1ED920C4003CA92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB971911ED93232001D99EC /* Flashable.swift in Sources */,
+				DB4B93691ED920C4003CA92E /* LoginVC.swift in Sources */,
+				DBB9718F1ED9322C001D99EC /* Jitterable.swift in Sources */,
+				DB4B93671ED920C4003CA92E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB4B936A1ED920C4003CA92E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4B936B1ED920C4003CA92E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB4B936F1ED920C4003CA92E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4B93701ED920C4003CA92E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB4B93731ED920C4003CA92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB4B93741ED920C4003CA92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4B93761ED920C4003CA92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZPWDFT65EV;
+				INFOPLIST_FILE = POPLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Weijie-Lin.POPLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB4B93771ED920C4003CA92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZPWDFT65EV;
+				INFOPLIST_FILE = POPLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Weijie-Lin.POPLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4B935E1ED920C4003CA92E /* Build configuration list for PBXProject "POPLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4B93731ED920C4003CA92E /* Debug */,
+				DB4B93741ED920C4003CA92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4B93751ED920C4003CA92E /* Build configuration list for PBXNativeTarget "POPLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4B93761ED920C4003CA92E /* Debug */,
+				DB4B93771ED920C4003CA92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB4B935B1ED920C4003CA92E /* Project object */;
+}
